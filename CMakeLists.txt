@@ -61,7 +61,7 @@ set(include_dir ${PROJECT_SOURCE_DIR}/include)
 
 add_subdirectory(lib)
 
-option(ETHASH_BUILD_TESTS "Build unit tests" ON)
+option(ETHASH_BUILD_TESTS "Build unit tests" OFF)
 if(ETHASH_BUILD_TESTS)
     add_subdirectory(test)
 endif()
